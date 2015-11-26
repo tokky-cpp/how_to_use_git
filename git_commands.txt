@@ -20,3 +20,6 @@ ex.git remote add origin https://github.com/shlvlv/<repogitory name>.git
 #Applying local changes to the remote repogitry
 git push -u origin <branch>
 ex.git push -u origin master
+
+#Back to the status of the hash value
+git checkout <hash value> <file>
