@@ -1,0 +1,15 @@
+git init
+
+git add <file>|<directory>
+
+git add -a
+
+git status
+
+git commit -m "hoge"
+
+git remote add <remote-name> <URL>
+ex.git remote add origin <URL>
+
+git push -u origin <branch>
+ex.git push -u origin master
