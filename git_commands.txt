@@ -1,15 +1,22 @@
+#Initializing
 git init
 
-git add <file>|<directory>
+#Adding file
+git add <file>
 
-git add -a
+#Adding the current directory to git
+git add .
 
+#Check the changes
 git status
 
+#Commiting with message "hoge"
 git commit -m "hoge"
 
+#Setting the current directory as a remote direcory
 git remote add <remote-name> <URL>
-ex.git remote add origin <URL>
+ex.git remote add origin https://github.com/shlvlv/<repogitory name>.git
 
+#Applying local changes to the remote repogitry
 git push -u origin <branch>
 ex.git push -u origin master
