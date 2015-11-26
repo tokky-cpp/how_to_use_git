@@ -1,7 +1,7 @@
 #Initializing git for the current directory
 git init
 
-#Adding file
+#Adding a <file> to git
 git add <file>
 
 #Adding the current directory to git
