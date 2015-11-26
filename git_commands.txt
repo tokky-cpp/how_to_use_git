@@ -1,4 +1,4 @@
-#Initializing
+#Initializing git for the current directory
 git init
 
 #Adding file
