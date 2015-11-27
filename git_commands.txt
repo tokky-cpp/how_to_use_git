@@ -5,7 +5,7 @@ git init
 git add <file>
 
 #Adding the current directory to git
-git anndd .
+git add .
 
 #Check the changes
 git status
