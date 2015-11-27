@@ -23,3 +23,6 @@ ex.git push -u origin master
 
 #Back to the status of the hash value
 git checkout <hash value> <file>
+
+#Applying changes of the remote repo to local repo
+git pull origin master
